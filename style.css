@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0e5ec;
+    text-align: center;
+}
+.form form{
+    background-color: #a8bad4;
+    border-radius: 15px;
+    padding: 3rem;
+    box-shadow: 10px 10px 20px #91bbfa,
+                -10px -10px 20px #7e7e7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;    
+    border: 1px solid black;
+}
+form h1{
+    color: rgb(85, 85, 85);
+    font-size: 35px;
+    margin-bottom:25px;
+}
+form input{
+    border: none;
+    padding: .9rem 1rem;
+    color: rgb(85, 85, 85);
+    margin-bottom: 1.5rem;
+    outline: none;
+    width: 18rem;
+    font-size: 15px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 10px 10px 20px #768bab,
+                -10px -10px 20px #6882aa;
+    transition: all .3s ease;
+}
+form input:focus{
+    box-shadow: inset 5px 5px 10px #91bbfa,
+                inset -5px -5px 10px #7e7e7e;
+}
+form button{
+    border: none;
+    padding: .9rem 1rem;
+    color: rgb(85,85,85);
+    margin-top: 10px;
+    outline: none;
+    width: 9rem;
+    font-size: 18px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 10px 10px 20px #768bab,
+                -5px -5px 10px #676868;
+    transition: all .3s ease;
+}
+form button:active{
+    box-shadow: inset 5px 5px 10px #919191,
+                inset -5px -5px 10px #7e7e7e;
+}
+
